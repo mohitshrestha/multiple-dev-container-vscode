@@ -1,7 +1,7 @@
 {
 	"name": "Node Container",
-	"dockerComposeFile": ["../../docker-compose.yml"],
-	"service": "app",
+	"dockerComposeFile": ["../../compose.yaml"],
+	"service": "node-app",
 	"shutdownAction": "none",
 	"workspaceFolder": "/workspace/node-src"
 }
