@@ -1,7 +1,7 @@
 {
 	"name": "Python Container",
-	"dockerComposeFile": ["../../docker-compose.yml"],
-	"service": "api",
+	"dockerComposeFile": ["../../compose.yaml"],
+	"service": "python-api",
 	"shutdownAction": "none",
 	"workspaceFolder": "/workspace/python-src"
 }
